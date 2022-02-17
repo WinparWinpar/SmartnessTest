@@ -20,6 +20,7 @@ public class smartnessTest {
         System.out.println("WinparWinpar's Smartness Test");
         System.out.println("Rules:\nAlways apply the floor function to division. This is for calculation purposes\nWhen answering a question where you have to enter a previous question, exclude the [y/n] if it is in the question\nUsing a calculator is CHEATING\nLooking at previous questions or other things I say is CHEATING\nNO CHEATING\nEND OF RULES\n");
         System.out.println("Do you want to take my smartness test?[Y/n]");
+
         answer = scanner.next();
 
         if (answer == "" || answer == "Y" || answer == "y" || answer == "YES" || answer == "Yes" || answer == "yes") {
